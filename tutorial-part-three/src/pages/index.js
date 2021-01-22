@@ -13,7 +13,7 @@ export default function Home() {
         What do I like to do? Lots of course but definitely enjoy building
         websites.
       </p>
-      <Sidebar>      </Sidebar>      
+      <Sidebar/>   
       <Footer/>
     </Layout>
     
