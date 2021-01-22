@@ -1,4 +1,6 @@
-/**
+/*
+  Restart the develoment server whenver changes are made to this file.
+  
  * Configure your Gatsby site with this file.
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
@@ -17,6 +19,7 @@ module.exports = {
         path: `${__dirname}/src/`
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
